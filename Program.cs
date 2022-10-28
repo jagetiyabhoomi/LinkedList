@@ -10,7 +10,7 @@ namespace LinkedList
             nodes.Add(70);
             nodes.Add(30);
             nodes.Add(56);
-            nodes.Remove(70);
+            nodes.Remove(56);
             Console.WriteLine("Successfully added");
             
         }
