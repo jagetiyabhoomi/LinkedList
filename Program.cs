@@ -10,8 +10,16 @@ namespace LinkedList
             nodes.Add(70);
             nodes.Add(30);
             nodes.Add(56);
-            nodes.Remove(56);
             Console.WriteLine("Successfully added");
+            if (nodes.Contains(30) == true)
+            {
+                Console.WriteLine("Element Found...!!");
+            }
+            else
+            {
+                Console.WriteLine("Element Not found...!!");
+            }
+            
             
         }
     }
