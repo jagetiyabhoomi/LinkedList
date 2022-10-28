@@ -7,9 +7,9 @@ namespace LinkedList
         public static void Main(string[] args)
         {
             List<int> nodes = new List<int>();
-            nodes.Add(70);
-            nodes.Add(30);
             nodes.Add(56);
+            nodes.Append(30);
+            nodes.Append(70);
             Console.WriteLine("Successfully added");
             
         }
