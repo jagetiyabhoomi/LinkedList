@@ -8,8 +8,9 @@ namespace LinkedList
         {
             List<int> nodes = new List<int>();
             nodes.Add(70);
+            nodes.Add(30);
             nodes.Add(56);
-            nodes.Insert(1, 70);
+            nodes.Remove(70);
             Console.WriteLine("Successfully added");
             
         }
